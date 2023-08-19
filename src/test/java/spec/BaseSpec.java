@@ -16,7 +16,7 @@ import java.time.Duration;
 
 public class BaseSpec {
 
-    //Application stored locally due to issues with finding online sources
+    //Application stored locally due to issues with finding online sources so find and download file by yourself
     private static final String APP = new File("src/test/resources/apks/EPAM_Connect_2.20.apk").getAbsolutePath();
     private static final String APPIUM = "http://localhost:4723/wd/hub";
 
